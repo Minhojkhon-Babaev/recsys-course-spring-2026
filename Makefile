@@ -15,7 +15,7 @@ setup:
 	$(PIP) install -r botify/requirements.txt --timeout 120 -q
 	cd botify && docker compose down -v --remove-orphans 2>/dev/null || true
 	cd botify && docker compose up -d --build --force-recreate --scale recommender=2
-	sleep 20
+	sleep 40
 
 run:
 	cd sim && echo "n" | ../$(PYTHON) -m sim.run \
