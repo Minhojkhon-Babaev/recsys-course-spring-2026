@@ -23,7 +23,6 @@ python train_and_submit.py
 
 - `data/submit.csv` — файл для сабмита (`user,track,score`)
 - `data/val_metrics.json` — локальный hold-out NDCG
-- текст для платформы — `description.md` (отправлять один раз, когда скор устраивает)
 
 Проверка пайплайна без данных соревнования:
 
