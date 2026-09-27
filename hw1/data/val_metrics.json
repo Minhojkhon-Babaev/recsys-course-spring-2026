@@ -1,0 +1,7 @@
+{
+  "holdout_ndcg": 0.9360504026134596,
+  "n_train": 2631427,
+  "n_test": 657679,
+  "used_als": true,
+  "used_lightfm": false
+}
